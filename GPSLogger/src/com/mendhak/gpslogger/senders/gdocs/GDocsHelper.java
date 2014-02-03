@@ -284,7 +284,7 @@ public class GDocsHelper implements IActionListener, IFileSender
         {
 
 
-            if (Integer.parseInt(Build.VERSION.SDK) < Build.VERSION_CODES.FROYO)
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.FROYO)
             {
                 //Due to a pre-froyo bug
                 //http://android-developers.blogspot.com/2011/09/androids-http-clients.html
@@ -355,7 +355,7 @@ public class GDocsHelper implements IActionListener, IFileSender
         try
         {
 
-            if (Integer.parseInt(Build.VERSION.SDK) < Build.VERSION_CODES.FROYO)
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.FROYO)
             {
                 //Due to a pre-froyo bug
                 //http://android-developers.blogspot.com/2011/09/androids-http-clients.html
@@ -421,7 +421,7 @@ public class GDocsHelper implements IActionListener, IFileSender
             String searchUrl = "https://www.googleapis.com/drive/v2/files?q=title%20%3D%20%27" + fileName + "%27%20and%20trashed%20%3D%20false";
 
 
-            if (Integer.parseInt(Build.VERSION.SDK) < Build.VERSION_CODES.FROYO)
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.FROYO)
             {
                 //Due to a pre-froyo bug
                 //http://android-developers.blogspot.com/2011/09/androids-http-clients.html

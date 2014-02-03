@@ -100,7 +100,7 @@ class HttpUrlLogHandler implements Runnable {
             Utilities.LogDebug(logUrl);
 
 
-            if (Integer.parseInt(Build.VERSION.SDK) < Build.VERSION_CODES.FROYO) {
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.FROYO) {
                 //Due to a pre-froyo bug
                 //http://android-developers.blogspot.com/2011/09/androids-http-clients.html
                 System.setProperty("http.keepAlive", "false");
