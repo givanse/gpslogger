@@ -31,4 +31,4 @@ google-play-services_lib/.classpath
 google-play-services_lib/*
 !google-play-services_lib/empty
 gen-external-apklibs/*
-!gen-external-apklibs/empty
+!gen-external-apklibs/actionbarsherlock/empty
