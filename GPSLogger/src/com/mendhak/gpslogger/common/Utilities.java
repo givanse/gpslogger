@@ -78,7 +78,6 @@ public class Utilities
         LogToDebugFile(message);
     }
 
-    @SuppressWarnings("unused")
     public static void LogDebug(String message)
     {
         if (LOGLEVEL >= 4)
@@ -97,7 +96,6 @@ public class Utilities
         LogToDebugFile(message);
     }
 
-    @SuppressWarnings("unused")
     public static void LogVerbose(String message)
     {
         if (LOGLEVEL >= 5)

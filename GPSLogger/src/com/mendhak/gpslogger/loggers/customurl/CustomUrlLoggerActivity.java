@@ -1,10 +1,8 @@
 package com.mendhak.gpslogger.loggers.customurl;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -13,11 +11,8 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.MenuItem;
 import com.mendhak.gpslogger.GpsMainActivity;
 import com.mendhak.gpslogger.R;
-import com.mendhak.gpslogger.common.IActionListener;
 import com.mendhak.gpslogger.common.Utilities;
-
 import java.text.MessageFormat;
-
 
 public class CustomUrlLoggerActivity extends SherlockActivity  {
 

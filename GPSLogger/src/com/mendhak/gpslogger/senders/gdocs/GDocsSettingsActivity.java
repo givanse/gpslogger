@@ -38,15 +38,12 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.mendhak.gpslogger.GpsMainActivity;
 import com.mendhak.gpslogger.R;
 import com.mendhak.gpslogger.common.IActionListener;
-import com.mendhak.gpslogger.common.Session;
 import com.mendhak.gpslogger.common.Utilities;
-
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class GDocsSettingsActivity extends SherlockPreferenceActivity
