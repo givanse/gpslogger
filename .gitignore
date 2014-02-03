@@ -28,4 +28,7 @@ google-play-services_lib/.classpath
 .project
 .classpath
 
-google-play-services_lib/
+google-play-services_lib/*
+!google-play-services_lib/empty
+gen-external-apklibs/*
+!gen-external-apklibs/empty
